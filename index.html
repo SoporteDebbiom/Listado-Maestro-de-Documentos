@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta name="referrer" content="no-referrer">
+<title>Listado Maestro de Documentos - DEBBIOM</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div id="app"></div>
+<div id="modal-root"></div>
+
+<!-- Librería externa: Excel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+<!-- Capa 1: Datos embebidos del listado maestro -->
+<script src="assets/data/registros.js"></script>
+
+<!-- Capa 2: Configuración y utilidades de fecha -->
+<script src="js/config.js"></script>
+
+<!-- Capa 3: Autenticación, sesiones y seguridad -->
+<script src="js/auth.js"></script>
+
+<!-- Capa 4: Sincronización en la nube (JSONBin.io) -->
+<script src="js/sync.js"></script>
+
+<!-- Capa 5: Aplicación principal (estado, render, modales) -->
+<script src="js/app.js"></script>
+
+</body>
+</html>
